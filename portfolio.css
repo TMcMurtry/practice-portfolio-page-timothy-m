@@ -79,6 +79,9 @@ main {
 
 .portfolio-link {
     margin: 6%;
+    a {
+        color: bisque;
+    }
 }
 
 footer {
