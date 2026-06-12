@@ -84,6 +84,10 @@ main {
     }
 }
 
+.contact a {
+    color: bisque;
+}
+
 footer {
     color: bisque;
     text-align: center;
