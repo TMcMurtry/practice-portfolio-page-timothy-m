@@ -1,47 +1,95 @@
 body{
-    background-color: bisque;
+    background-image: url("smoky-mountains.jpeg");
+    background-size: cover;
+    margin: 0;
 }
+
+div {
+    background-color: rgba(119, 123, 132, 0.8);
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+
 
 header {
     text-align: center;
-    h1 {
-        margin-bottom: 35px;
+}
+
+.submitted {
+    a {
+        color: bisque;
     }
-    p {
-        color:maroon;
-    }
-    margin-bottom: 100px;
+}
+
+.skills-list {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.skills-list ul {
+    display: inline-block;
+    text-align: left;
+    padding: 0;
+    margin: 0;
 }
 
 main {
     text-align: center;
 }
 
-section {
-    margin-bottom: 50px;
+.about-me-image {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 1.5rem;
 }
 
-h2 {
-    padding-top: 35px;
-    margin-bottom: 50px;
+.about-me-image .about-text {
+    flex: 1 1 50%;
+    min-width: 260px;
+    background-color: rgba(119, 123, 132, 0.0); ;
 }
 
-#Skills-table {
-    background-color: bisque;
+.about-me-image img {
+    flex: 0 0 30%;
+    max-width: 20%;
+    height: auto;
+    border-radius: 0.5rem;
+    object-fit: cover;
+}
+
+.Skills-table {
+   
     table{
-        background-color: maroon;
-        color: gold;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 150px;
-    }
+        width: 30%;
+\    }
+}
+
+.portfolio-link {
+    margin: 6%;
 }
 
 footer {
-    background-color: teal;
     color: bisque;
     text-align: center;
-    a {
-        color:aqua;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a{
+        color: bisque;
     }
 }
